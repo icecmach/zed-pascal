@@ -1,0 +1,15 @@
+id = "pascal"
+name = "Pascal"
+version = "0.0.1"
+schema_version = 1
+authors = ["Andre P. <and.carried041@passinbox.com>"]
+description = "Pascal support"
+repository = "https://github.com/icecmach/zed-pascal"
+
+[language_servers.pasls]
+name = "pasls"
+language = "Pascal"
+
+[grammars.pascal]
+repository = "https://github.com/Isopod/tree-sitter-pascal/"
+commit = "78426d96bde7114af979e314283e45d087603428"

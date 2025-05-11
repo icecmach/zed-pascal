@@ -1,0 +1,4 @@
+name = "Pascal"
+grammar = "pascal"
+path_suffixes = ["pas", "p", "lpr"]
+line_comments = ["// "]
